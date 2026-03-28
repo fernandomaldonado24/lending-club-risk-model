@@ -1,0 +1,17 @@
+# environments
+.venv/
+.env
+
+# python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# data (NO subir datasets pesados)
+*.csv
+*.parquet
+
+# OS
+.DS_Store

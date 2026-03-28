@@ -1,0 +1,77 @@
+Core loan features
+loan_amnt: Loan requested.
+funded_amnt: Amount approved.
+funded_amnt_inv: Amount funded by investors.
+term: Loan duration (36/60).
+int_rate: Interest rate (risk proxy).
+installment: Monthly payment.
+
+Credit quality (top signal)
+grade: Credit rating (A–G).
+sub_grade: More granular rating.
+fico_range_low / high: Credit score range.
+
+Borrower profile
+emp_length: Years employed.
+home_ownership: Housing status.
+annual_inc: Income.
+verification_status: Income verified or not.
+purpose: Loan purpose.
+
+
+Debt & usage
+dti: Debt-to-income ratio.
+revol_bal: Revolving balance.
+revol_util: Credit usage %.
+total_acc: Total accounts.
+open_acc: Open accounts.
+
+Credit behavior
+delinq_2yrs: Past delinquencies.
+inq_last_6mths: Credit inquiries.
+pub_rec: Public records.
+pub_rec_bankruptcies: Bankruptcies.
+tax_liens: Tax issues.
+
+Credit history
+earliest_cr_line: Oldest account.
+
+Account status / structure
+acc_now_delinq: Currently delinquent accounts.
+collections_12_mths_ex_med: Collections last year.
+chargeoff_within_12_mths: Recent charge-offs.
+delinq_amnt: Amount delinquent.
+
+Balances & limits
+tot_cur_bal: Total balance.
+total_rev_hi_lim: Revolving limit.
+tot_hi_cred_lim: Total credit limit.
+total_bal_ex_mort: Balance excl. mortgage.
+total_bc_limit: Credit card limit.
+total_il_high_credit_limit: Installment limit.
+
+Utilization / efficiency (very strong)
+bc_util: Card utilization.
+bc_open_to_buy: Available credit.
+avg_cur_bal: Avg balance per account.
+pct_tl_nvr_dlq: % never delinquent.
+percent_bc_gt_75: High utilization cards.
+
+Activity & recency
+acc_open_past_24mths: Recent accounts opened.
+num_tl_op_past_12m: Accounts opened last year.
+mths_since_recent_bc / inq: Recency of activity.
+mo_sin_*: Months since events (aging metrics).
+
+Account composition (counts)
+Number of different account types and delinquency patterns:
+num_bc_tl: Credit cards.
+num_il_tl: Installment loans.
+num_rev_accts: Revolving accounts.
+num_tl_90g_dpd_24m: Serious delinquencies.
+
+Mortgage
+mort_acc: Mortgage accounts.
+
+Meta / technical
+initial_list_status: Listing type.
